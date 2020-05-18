@@ -3,7 +3,7 @@ import axios from 'axios'
 export function request(config) {
   const axios1 = axios.create({
     // baseURL: 'static/data/homeData'
-    timeout: 5000
+    timeout: 3000
   })
 
   //响应时拦截
